@@ -3,6 +3,7 @@ function addition () {
     Zahl2 = randint(1, 50)
     Aufgabe = "Was ist" + Zahl1 + "+" + Zahl2 + "?"
     Antwort = 1
+    basic.showString(Aufgabe)
 }
 let Antwort = 0
 let Aufgabe = ""
