@@ -1,12 +1,14 @@
 function addition () {
     Zahl1 = randint(1, 50)
     Zahl2 = randint(1, 50)
-    Aufgabe = "Was ist" + Zahl1 + "+" + Zahl2 + "?"
+    Aufgabe = 1
     Antwort = 1
-    basic.showString(Aufgabe)
+    if (Aufgabe == 1) {
+        basic.showString("Was ist" + Zahl1 + "+" + Zahl2 + "?")
+    }
 }
 let Antwort = 0
-let Aufgabe = ""
+let Aufgabe = 0
 let Zahl2 = 0
 let Zahl1 = 0
 let Rechenart = 0
